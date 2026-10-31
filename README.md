@@ -17,7 +17,7 @@ This project is licensed under the GNU Affero General Public License v3.0 or lat
 Download the signed APK from GitHub Releases:
 
 ```text
-JuiceSSHOfflineProFix-v1.0-xposed82-release.apk
+JuiceSSHOfflineProFix-v2.0-xposed101-release.apk
 ```
 
 Package:
@@ -28,7 +28,7 @@ org.lyf.juicesshofflinepro
 
 Compatibility:
 
-- Xposed API 82 / LSPosed legacy module API
+- Xposed API 101 / LSPosed modern module API
 - `minSdk 26` to match JuiceSSH 3.2.2
 - `targetSdk 36`
 
@@ -57,7 +57,7 @@ After changing settings, force-stop and reopen JuiceSSH. Some LSPosed versions m
 ## Install
 
 ```bash
-adb install -r JuiceSSHOfflineProFix-v1.0-xposed82-release.apk
+adb install -r JuiceSSHOfflineProFix-v2.0-xposed101-release.apk
 ```
 
 Then in LSPosed:
@@ -85,3 +85,7 @@ compileOnly files('libs/xposed-api-82-stub.jar')
 ```
 
 The stub is for compilation only and is not packaged into the APK; the actual Xposed classes are provided by LSPosed/Xposed at runtime.
+
+## Legacy release
+
+The previous API 82 build remains available as `v1.0` in this repository and as `1-1.0` in the Xposed-Modules-Repo distribution.
