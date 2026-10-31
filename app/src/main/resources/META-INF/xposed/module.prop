@@ -1,0 +1,8 @@
+id=org.lyf.juicesshofflinepro
+name=JuiceSSH Offline Pro Fix
+version=2.0
+versionCode=2
+description=Modern Xposed API 101 module for legitimately purchased JuiceSSH Pro offline recovery.
+minApiVersion=101
+targetApiVersion=101
+staticScope=true
